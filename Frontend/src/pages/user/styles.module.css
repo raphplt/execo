@@ -1,0 +1,175 @@
+.LblProfil {
+    font-size: 50px;
+    font-family: "Akshar", sans-serif;
+    display: flex;
+    width: 20%;
+    margin-top: 5%;
+    margin-left: 40%;
+    justify-content: center;
+    padding-bottom: 30px;
+    border-bottom: 5px solid #61A35B;
+}
+
+.Account {
+    font-size: 30px;
+    font-family: "Akshar", sans-serif;
+    display: flex;
+    width: 80%;
+    margin-top: 5%;
+    margin-left: 10%;
+    padding-bottom: 30px;
+    border-bottom: 5px solid #61A35B;
+}
+
+.Pencil {
+    margin-left: 1%;
+    margin-top: 5px;
+    border: 1px solid #61A35B;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.Pencil:hover {
+    transition: 0.5s;
+    background-color: #61A35B;
+    color: white;
+}
+
+.Name_FirtName {
+    font-family: "Akshar", sans-serif;
+    font-size: 22px;
+    color: #61A35B;
+    display: flex;
+    margin-left: 11%;
+    margin-top: 2%;
+}
+.Name_FirtName .Name {
+    border: 1px solid #61A35B;
+    border-radius: 10px;
+    padding: 8px;
+    width: 40%;
+}
+
+.Name_FirtName .FirtName {
+    border: 1px solid #61A35B;
+    border-radius: 10px;
+    padding: 8px;
+    width: 40%;
+    margin-left: 1%;
+}
+
+.Name_FirtName .Pencil {
+    margin-left: 10px;
+}
+
+.Username_Age {
+    font-family: "Akshar", sans-serif;
+    font-size: 22px;
+    color: #61A35B;
+    display: flex;
+    margin-top: 2%;
+    margin-left: 11%;
+}
+
+.Username_Age .Username {
+    border: 1px solid #61A35B;
+    border-radius: 10px;
+    padding: 8px;
+    width: 45%;
+
+}
+
+.Username_Age .Age {
+    border: 1px solid #61A35B;
+    border-radius: 10px;
+    padding: 8px;
+    width: 15%;
+    margin-left: 1%;
+}
+
+.Username_Age .Sexe {
+    border: 1px solid #61A35B;
+    border-radius: 10px;
+    padding: 8px;
+    width: 15%;
+    margin-left: 1%;
+}
+
+.Username_Age .Pencil {
+    margin-left: 18px;
+}
+
+.Password_Telephone {
+    font-family: "Akshar", sans-serif;
+    font-size: 22px;
+    color: #61A35B;
+    display: flex;
+    margin-left: 11%;
+    margin-top: 2%;
+}
+
+.Password_Telephone .Password {
+    border: 1px solid #61A35B;
+    border-radius: 10px;
+    padding: 8px;
+    width: 30%;
+}
+
+.Password_Telephone .Number {
+    border: 1px solid #61A35B;
+    border-radius: 10px;
+    padding: 8px;
+    width: 50%;
+    margin-left: 1%;
+}
+
+.Password_Telephone .Pencil {
+    margin-left: 11px;
+}
+
+.Email {
+    font-family: "Akshar", sans-serif;
+    font-size: 22px;
+    color: #61A35B;
+    display: flex;
+    margin-top: 2%;
+    margin-left: 11%;
+}
+
+.Email .mail {
+    border: 1px solid #61A35B;
+    border-radius: 10px;
+    padding: 8px;
+    width: 84%;
+}
+.Email .Pencil {
+    margin-left: 10px;
+}
+
+
+.Btn {
+    display: flex;
+    justify-content: center ;
+    border: 1px solid #61A35B;
+    border-radius: 10px;
+    padding: 8px;
+    width: 25%;
+}
+
+.Btn:hover {
+    transition: 0.5s;
+    background-color: #61A35B;
+    color: white;
+}
+
+.btnbottom {
+    display: flex;
+    justify-content: space-between;
+    font: 22px "Akshar", sans-serif;
+    color: #61A35B;
+    margin: 2% 20% 5%;
+  }
+  
+.LblUser {
+    color: black;
+}

@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@1&display=swap');
+
+
+*{
+    list-style-type: none
+}
+
+:root{
+    --primary-color: #F2F2F2;
+    --primary-color-dark: #2F2C2C;
+    --secondary-color: #234D1F;
+    --secondary-color-dark: #F2F2F2;
+    --scores-green: #47b33e;
+    --scores-green-secondary: #ebf5ea;
+    --scores-red: #db4c4c;
+    --scores-red-secondary: #f0dfdf;
+    --scores-yellow: #cece49;
+    --scores-yellow-secondary: #f7f7ea;
+    --scores-blue: #4c4cdb;
+    --scores-blue-secondary: #a6a6ff;
+}
+
+body::-webkit-scrollbar {
+    width: 8px;
+}
+
+body::-webkit-scrollbar-track:hover {
+    background: #979292;
+}
+
+body::-webkit-scrollbar-thumb {
+    background: #326C2D;
+    border-radius: 20px;
+    ;
+}
+
+::selection {
+    color: #f1f1f1;
+    background: #326C2D;
+}

@@ -1,0 +1,85 @@
+body.active-modal {
+    overflow-y: hidden;
+}
+
+.btnmodal {
+    margin-left: 1%;
+    margin-top: 5px;
+    border: 1px solid #61A35B;
+    border-radius: 50%;
+    padding: 10px;
+    color: #61A35B;
+}
+
+.btnmodal:hover{
+    transition: 0.5s;
+    background-color: #61A35B;
+    color: white;
+}
+
+.modal, .overlay {
+    width: 100vw;
+    height: 120vh;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: fixed;
+}
+
+.overlay {
+    background: rgba(49,49,49,0.8);
+}
+
+.modalcontent {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    line-height: 1.4;
+    color: black;
+    background: #61A35B;
+    padding: 30px 40px;
+    border-radius: 3px;
+    max-width: 600px;
+    min-width: 300px;
+}
+
+.closemodal {
+    position: absolute;
+    top: 10px;
+    right: 10px; 
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.closemodal:hover {
+    color: white;
+}
+
+.newPassword {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 30px;
+}
+
+.textbox {
+    padding: 10px;
+    border-radius: 10px;
+    color: black;
+    outline: none;
+    margin-bottom: 10px;
+}
+
+.BtnValider {
+    margin-left: 10px;
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.BtnValider:hover {
+    color: #61A35B;
+    background-color: white;
+    border: 1px solid white;
+}
